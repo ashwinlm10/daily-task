@@ -22,11 +22,24 @@
 //     return largest
 // }
 
-let n = 4
+// let n = 4
 
-function square(num){
-    let ans = num * num
-    // return ans
+// function square(num){
+//     let ans = num * num
+//     // return ans
+// }
+
+// console.log(square(n));
+
+function makeCounter() {
+    let count = 0
+    return function() {
+        count ++
+         return count
+    }
 }
 
-console.log(square(n));
+const counter = makeCounter()
+console.log(counter()) // 1
+console.log(counter()) // 2
+console.log(counter()) // 3
