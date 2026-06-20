@@ -39,3 +39,13 @@ function sumofDigit(n){
     return sum
 }
 console.log(sumofDigit(123));
+
+
+//remove duplicate
+
+function removeDuplicates(arr) {
+    return [...new Set(arr)]
+}
+
+console.log(removeDuplicates([1,2,3,2,4,3,5])) 
+console.log(removeDuplicates(['a','b','a','c']))
