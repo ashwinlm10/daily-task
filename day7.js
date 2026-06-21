@@ -100,7 +100,7 @@ console.log(counter.increment());
 console.log(counter.decrement());
 
 
-counter using closures
+// counter using closures
 function createCounter(){
     let count = 0
 
@@ -130,7 +130,7 @@ console.log(counter.increment());
 console.log(counter.increment())
 console.log(counter.reset());
 
-number to string
+// number to string
 
 function numberToString(num) {
   return num.toString()
