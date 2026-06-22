@@ -101,6 +101,7 @@ console.log(counter.decrement());
 
 
 // counter using closures
+
 function createCounter(){
     let count = 0
 
