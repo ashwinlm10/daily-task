@@ -24,7 +24,7 @@ let string2 = "hello"
 console.log(string2.split('').reverse("").join(""));
 
 //Capitalize the first letter of "ashwin"
-let name = "javascript"
+let name = "ashwin"
 let result = name.slice(0,3)+
 name.charAt(3).toUpperCase()+
 name.slice(4)
@@ -43,3 +43,14 @@ for(let i=0;i<=string4.length;i++){
 console.log(count);
 
 
+//1. Count the number of vowels in "javascript"
+let string6 = "apple"
+let vowel = "aeiou"
+let vowelCount = 0
+
+for(let i = 0; i < string6.length; i++){
+    if(vowel.includes(string6[i])){
+        vowelCount++
+    }
+}
+console.log(vowelCount);
